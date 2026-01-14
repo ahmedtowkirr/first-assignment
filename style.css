@@ -111,4 +111,154 @@
   }
 
   /* Notes Section */
+  .notes-section {
+    padding: 80px 80px;
+    text-align: center;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .section-header p {
+    color: #64748b;
+    margin-bottom: 50px;
+  }
+
+  .card-container {
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+
+  }
+
+  .card {
+    padding: 30px;
+    border: 1px solid #f1f5f9;
+    border-radius: 12px;
+    text-align: center;
+  }
+
+  .icon-box {
+    width: 45px;
+    height: 45px;
+    border-radius: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  .icon-red {
+    background-color: #dc4c4c;
+    color: #ef4444;
+  }
+
+  /* Second Brain Section */
+  .second-brain {
+    padding: 100px 80px;
+    background-color: #fff;
+  }
+
+  .brain-container {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    margin-left: 200px;
+  }
+
+  .brain-image img {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .sub-label {
+    color: #2D8A5E;
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+
+  .brain-text h2 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+  }
+
+  .brain-text p {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
+
+  .check-list {
+    list-style: none;
+  }
+
+  .check-list li {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+  }
+
+  .check-list li::before {
+    content: "✔ ";
+    color: #2D8A5E;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+
+  /* Early Access Challenge */
+  .early-access {
+    padding: 60px 80px;
+  }
+
+  .access-box {
+    background-color: #f8fafc;
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .footer-note {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin-top: 15px;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #020617;
+    color: white;
+    padding: 60px 80px 30px;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-links .icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .divider {
+    border: 0;
+    border-top: 1px solid #1e293b;
+    margin: 40px 0 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #64748b;
+  }
+
   
