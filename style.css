@@ -1,0 +1,83 @@
+
+
+  /* Basic Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 1300px;
+    padding: 20px 80px;
+    background: #fff;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 0.9rem;
+  }
+
+  /* Banner */
+  .banner {
+    background: url('./B13-A01-Knowledge-Vault-main/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .banner-content {
+    max-width: 800px;
+  }
+
+  .badge {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .text-green {
+    color: #4ade80;
+  }
+
+  .banner p {
+    margin: 20px 0 40px;
+    color: #cbd5e1;
+  }
+
+  /* Buttons & Hover Effects */
+  
