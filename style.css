@@ -80,4 +80,35 @@
   }
 
   /* Buttons & Hover Effects */
+  .btn {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .btn-primary {
+    background-color: #2D8A5E;
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background-color: #246d4a;
+    transform: translateY(-2px);
+  }
+
+  .btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Notes Section */
   
